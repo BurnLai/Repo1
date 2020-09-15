@@ -1,0 +1,25 @@
+initialization:
+
+Step 1 : create new folder for using GIT
+Step 2 : create a file for test
+Step 3 : git init
+Step 4 : git config --glogal user.name "your sign-in name"
+Step 5 : git config --glogal user.email "your sign-in email"
+	 (only needed on new account)
+
+Step 6 : git add "filename.ext"  (add file to Git) git add . (all files)
+Step 7 : git status	(check file status)  -- it change red - waiting
+         
+Step 8 : git commit -m "comments" 
+Step 9 : git remote add origin https://github.com/BurnLai/Repo1
+Step 10: git push -u origin master
+
+         ENTER ON YOUR WEBSITE IN GIT AND YOU SEE YOUR UPLOADED FILE
+
+DELETE FILE IN YOUR WITE:
+Step 1 : git rm --cached "filename.ext"
+Step 2 : git commit -m "comments"
+Step 3 : git remote add origin https://github.com/BurnLai/Repo1
+Step 4 : git push -u origin master
+
+	ENTER ON YOUR WEBSITE IN GIT AND YOU SEE FILE is "disappeared"
