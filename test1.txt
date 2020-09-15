@@ -1,0 +1,14 @@
+ Volume in drive D has no label.
+ Volume Serial Number is 8ECD-21E0
+
+ Directory of D:\MyFolder
+
+09/14/2020  09:28 PM    <DIR>          .
+09/14/2020  09:28 PM    <DIR>          ..
+09/10/2020  04:07 PM             1,813 blog_flask notes.txt
+09/14/2020  04:33 PM    <DIR>          Flask_Blog
+09/14/2020  07:45 PM                 0 index.html.txt
+09/14/2020  07:49 PM               230 learnSites.txt
+09/14/2020  09:28 PM                 0 test1.txt
+               4 File(s)          2,043 bytes
+               3 Dir(s)  84,642,222,080 bytes free
