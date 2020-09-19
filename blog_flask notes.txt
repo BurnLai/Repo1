@@ -1,0 +1,75 @@
+PASS PART 1
+
+C:\Users\Burn_>d:
+D:\>pip install flask
+D:\>python
+>>> import flask
+>>> ^Z
+D:\>md Blog_Flask
+
+(create file 'blogflask.py' in program
+
+D:\>cd Blog_Flask
+
+D:\Blog_Flask>set FLASK_APP=blogflask.py
+
+D:\Blog_Flask>flask run
+
+Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+D:\Blog_Flask>set FLASK_DEBUG=1 (for browser reload easily)
+
+D:\Blog_Flask>python blogflask.py
+
+
+
+PASS PART 2 (WATCHED & COPY FILES)
+
+PASS PART 3 (Forms and User Input)
+
+D:\Blog_Flask>pip install flask-wtf
+
+D:\Blog_Flask>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import secrets
+>>> secrets.token_hex(16)
+'cb190a7c676910688279e331d3f1bc72'
+
+Part 4 - Database with Flask-SQLAlchemy
+
+D:\Blog_Flask>pip install flask-sqlalchemy
+
+c:\users\burn_\appdata\local\programs\python\python38-32\python.exe -m pip install --upgrade pip' command.
+
+after revise blockflask, back to python
+D:\Blog_Flask>python
+>>> from Blod_Flask import db
+>>> db.create_all()
+
+site.db WILL CREATED IN Block_Flask
+
+input data:
+>>>from blogflask import User, Post
+>>>user_1 = User(username='Corey', email= 'c@demo.com', password= 'password')
+>>>db.session.add(user_1)
+>>>user_2 = User(username='JonDoe', email='jd@demo.com', password= 'password')
+>>>db.session.add(user_2)
+>>>db.session.commit()
+>>>User.query.all()		(2 users data appeared)
+
+>>>User.query.first()		Corey's all data came out), or
+>>>User.query.filter_by(username='Corey).all()	Corey's all data came out
+>>>User.query.filter_by(username='Corey).first()	Corey's all data came out
+or
+>>> user = User.query.get(1)
+>>>user		Corey's all data came out
+
+Part 5 - Package Structure
+
+
+
+
+
+
+
